@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS chronic_db;
+
+CREATE DATABASE chronic_db;
