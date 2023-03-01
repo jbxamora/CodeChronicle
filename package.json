@@ -11,8 +11,17 @@
     "type": "git",
     "url": "git+https://github.com/jbxamora/CodeChronicle.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Tech",
+    "Blog",
+    "Developers",
+    "Tech Bloggers",
+    "Handlebars",
+    "Sequelize",
+    "Express.js",
+    "Authentication"
+  ],
+  "author": "Jorge Zamora",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jbxamora/CodeChronicle/issues"
