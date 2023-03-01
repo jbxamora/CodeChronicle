@@ -1,0 +1,31 @@
+{
+  "name": "codechronicle",
+  "version": "1.0.0",
+  "description": "CodeChronicle is a tech blog site that allows developers to publish articles, blog posts, and their thoughts and opinions. It features a CMS-style platform where users can sign up, log in, create and update blog posts, and leave comments. The site has a homepage that displays existing blog posts and navigation links for the homepage and dashboard. Users can access the dashboard to manage their blog posts and update or delete them as necessary. The platform also includes authentication features, such as sign up, sign in, and log out options, and idle timeout prompts. CodeChronicle is a great platform for developers to share their knowledge and connect with others in the tech community.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbxamora/CodeChronicle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbxamora/CodeChronicle/issues"
+  },
+  "homepage": "https://github.com/jbxamora/CodeChronicle#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.0",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.1.2",
+    "sequelize": "^6.29.0"
+  }
+}
